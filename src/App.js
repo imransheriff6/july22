@@ -23,6 +23,7 @@ import Counter from './components/reduxExample/counter';
 function App() {
   return (
     <>
+    <h1>testing</h1>
     <Provider store={store}>
       <Router>
       <button><Link to='/home'>Home</Link></button>
